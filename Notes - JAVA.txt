@@ -1,0 +1,55 @@
+JAVA
+-O.O.
+-Bibliotecas
+-Codigo, apos compilado, transforma em bitycode. Simula o computador.
+Traduz pra aquele sistema operacional. Maquina virtual/Virtual Machine Java.
+-um executavel unico com um codigo unico, e um cara traduz para o sistema
+operacional. O cara é a Virtual Machine Java.
+- o Codigo seria o Java, q transforma no executavel q seria o Bytecode 
+Java, e a virtual machine lanca pro sistema operacional.
+
+-JRE é o ambiente para executar uma aplicação Java
+-JDK é o ambiente para executar uma aplicação Java e possui ferramentas 
+de desenvolvimento.
+
+-chamar a Virtual Machine no prompt = java Programa(seria o nome da classe)
+-o javac Programa.java faz o codigo ser compilado(C de compilar)
+
+-IDEs para Java - netbeans, intelij, eclipse
+
+-VARIAVEIS E CONTROLE DE FLUXO
+
+-nas variaveis é importante o habito de declarar especificamente a variavel,
+ou seja, sem resumos como add = adicionar, att = atualizar.
+
+-possivel somar dentro de um console.log/system.out.print()
+
+-println = pula a linha do console.
+-pirnt = segue na mesma linha
+-int = numeros inteiros. Pode guardar ate 2 milhoes.
+-double = numeros decimais(150.10)
+-long = guarda numeros inteiros q passa de 2 milhoes, vai ate 2bi²
+Precisa colocar um l/L no final pra ele acietar. Ex.:
+long numeroGrande = 32355655454l/L;
+-short = guarda valores pequenos;
+-byte = menor q o short;
+
+-casting = (int/double) salario; Ele faz com que oq esteja ali na frente
+seja forçado a ser aquilo, um int no caso. Contudo, no console.log, 
+ele mostra como um int. Ou seja, nao mostra a casa decimal.
+
+-char = guarda caracter. Contudo ele guarda apenas uma letra/caracter.
+Guarda um UNICODE. Ele na real é um numero, contudo, tranforma conforme 
+a tabela.
+
+-String =  nao é palavra chave do Java. Serve para caracteres.
+-boolean = sempre true ou false.
+
+-sysout = console.log() . Recurso do Eclipse.
+-if/else = se tem num if apenas uma linha de codigo para realizar a obrigacao
+, não é necessario usar o as chaves{}
+
+- || = ou
+- && = e
+
+-Atalho: main + ctrl + espaco;
