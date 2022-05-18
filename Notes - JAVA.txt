@@ -53,3 +53,17 @@ a tabela.
 - && = e
 
 -Atalho: main + ctrl + espaco;
+
+	-JAVA POO
+
+-objeto = instância
+-classe
+-o tipo da variavel que guarda uma instancia é o nome da classe que é referenciada.
+- Referencia vs Objeto
+-as variáveis nao tem um objeto dentro, no Java.
+
+-Metodo é diferente de funcao, no Java. A syntax é um pouquinho estranha.
+-"void" é uma palavra chave para afirmar que aquela funcao/metodo nao devolve nada.
+-devemos tratar os objetos por seus metodos.
+-"private" em um atributo => o atributo nao pode ser lido, modificado por ngm
+a nao ser pela propria classe. Voce sempre pede para mexer naquilo que é privado.
