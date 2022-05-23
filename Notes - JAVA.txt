@@ -67,3 +67,42 @@ a tabela.
 -devemos tratar os objetos por seus metodos.
 -"private" em um atributo => o atributo nao pode ser lido, modificado por ngm
 a nao ser pela propria classe. Voce sempre pede para mexer naquilo que é privado.
+
+-Estado consistente de um objeto. Quando esta tudo ok conforme as regras de negocio.
+
+-Usamos um Constructor para definir o padrao. No exemplo, a agencia vem como padrao 0.
+
+-o new Conta() é um contructor que ja se encontra no Java, naquele arquivo, mas 
+invisivel. Lá vc pode iniciar alguns dados. Dizer q o this.saldo = 100 por exmeplo.
+
+-O constructor pode receber parametros. Nesse caso vc pode passar agencia e numero
+na conta por exemplo.
+
+-static - palavra reservada para fazer que aquele tipo especifico seja da classe inteira.
+o Static apenas vai acessar atributos estaticos daquela propria classe.
+
+---------HERANÇA--------------
+-Aproveitar classes/metodos dessas classes, ja criadas.
+-Syntax = public class XXXXX extends XXXXX{}
+
+	-Classe Mae/Base Class/Super Class --> nomes para a primeira classe da hierarquia.
+	-Classe Filha --> a classe que puxa algo da mãe.
+
+- protected --> modificador de visibilidade -  se encontra entre o "private" e o "public".
+	significa que ele é publico para seus filhos.
+
+- super.salario --> "super" é uma palavra reservada que tem o mesmo uso q o "this", 
+contudo, ele é usado quando o atributo vem da classe mãe.
+
+- reescrita de metodo - o nome ja diz, reescrevemos o metodo da classe mae, e mudamos
+pouca coisa.
+
+O primeiro pilar da herança é a REUTILIZAÇÃO. Contudo existe outro pilar, um pouco mais
+complexo. O Polimorfismo.
+
+---------POLIMORFISMO----------
+Voce tem um objeto do tipo X, mas vc acaba tendo duas formas de chegar nesse objeto,
+possui mais de uma referencia.
+
+Podemos usar a referencia mais generica para serem usadas pelos outros. Fazendo 
+com que eu elimine linhas de codigo.
